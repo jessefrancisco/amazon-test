@@ -1,0 +1,18 @@
+{
+    "src_folders" : ["tests/login.js", "tests/addItems.js", "tests/checkout.js"],
+    "page_objects_path": "./page-object",
+  
+    "webdriver" : {
+      "start_process": true,
+      "server_path": "./node_modules/.bin/chromedriver",
+      "port": 9515
+    },
+  
+    "test_settings" : {
+      "default" : {
+        "desiredCapabilities": {
+          "browserName": "chrome"
+        }
+      }
+    }
+  }

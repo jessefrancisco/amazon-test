@@ -1,0 +1,27 @@
+{
+  "name": "amazon-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/nightwatch/bin/nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessefrancisco/amazon-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessefrancisco/amazon-test/issues"
+  },
+  "homepage": "https://github.com/jessefrancisco/amazon-test#readme",
+  "dependencies": {
+    "imap-simple": "^4.3.0",
+    "jsdom": "^15.1.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^76.0.0",
+    "nightwatch": "^1.2.1"
+  }
+}
